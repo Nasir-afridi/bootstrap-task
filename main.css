@@ -1,0 +1,90 @@
+/** 
+*  Carousel styling / slider bar styling
+*/
+.navbar-dark .navbar-nav .nav-link{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navigation{
+    --bs-bg-opacity: .5;
+}
+.carousel-item{
+    height: 470px;
+    
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.carousel-caption{
+    bottom: 30%;
+}
+    .carousel-caption h1{
+        text-shadow: 0px 5px 10px #000;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+     background-color: rgba(0, 0, 0,0.95);
+     padding: 30px;
+     border-radius: 5px;
+     display: inline-block;
+     background-size: 40px 40px;
+}
+@media screen and (max-width: 786px){
+    .carousel-item{
+        height: 500px;
+    }
+    .carousel-caption{
+        bottom: 20%;
+    }
+}
+.carousel-caption p{
+    font-size: 14px;
+}
+/**  
+* services section styling.
+*/
+.section-title-text{
+  margin: 0 auto;
+  width: 800px;
+}
+.service-col img {
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+.service-col h4 {
+    font-size: 24px;
+}
+.service-col p{
+    font-size: 14px;
+}
+.service-col-inner{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+/**
+* Footer
+*/
+.footer-cols p{
+    font-size: 16px;
+}
+.footer-cols{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-cols{
+    margin-bottom: 6px;
+}
+.footer-cols ul li a, .footer-cols a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.footer-cols a:hover{
+    color: royalblue;
+}
+
+.image{
+    margin-right: 10px;
+}
